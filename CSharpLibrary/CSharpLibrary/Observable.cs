@@ -15,7 +15,7 @@ namespace CSharpLibrary
         public void Deatach(IObserver observer)
         {
             if (_observers.Contains(observer))
-                _observers.Add(observer);
+                _observers.Remove(observer);
         }
 
         public void NotifyAll()
