@@ -1,0 +1,15 @@
+*.dcu
+
+*.dll
+
+*.exe
+
+*.~dfm
+
+*.~pas
+
+.vs
+
+/CSharpLibrary/packages
+/CSharpLibrary/CSharpLibrary/obj
+/CSharpLibrary/CSharpLibrary/bin
